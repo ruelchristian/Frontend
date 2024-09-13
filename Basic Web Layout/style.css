@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of viewport */
+}
+/* Header */
+.header {
+  height: 10vh; /* 10% of viewport height */
+  background-color: #333;
+}
+/* Navigation */
+.nav {
+  height: 5vh; /* 5% of viewport height */
+  background-color: #444;
+}
+/* Content Layout */
+.content {
+  flex: 1;
+  display: flex;
+}
+.main-content {
+  flex: 3;
+  background-color: #f4f4f4;
+  margin-right: 20px;
+}
+.sidebar {
+  flex: 1;
+  background-color: #ddd;
+}
+/* Footer */
+.footer {
+  height: 5vh; /* 5% of viewport height */
+  background-color: #333;
+}
