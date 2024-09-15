@@ -1,0 +1,71 @@
+html body,
+.main {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(1, 255, 221);
+}
+#myNumber {
+  font-size: 10em;
+}
+
+#myBtn {
+  font-size: 4em;
+  padding: 30px;
+  background-color: rgb(78, 72, 72);
+  border-radius: 30px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background-color: rgb(100, 82, 82);
+}
+div {
+  margin-top: 20px;
+}
+#age {
+  font-size: 2em;
+}
+
+#input {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(255, 228, 228);
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 20px 50px;
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: rgb(78, 72, 72);
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: rgb(100, 82, 82);
+}
+
+.main {
+  width: 50%;
+  height: 60%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  opacity: 0.9;
+}
+#roll-message,
+#input,
+#attempts,
+#result {
+  color: rgb(0, 0, 0);
+}
